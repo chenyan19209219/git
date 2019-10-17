@@ -10,4 +10,4 @@ do
 		refs/tags/
 done |
 sort |
-sed -e 's/[^#]*#//'
+sed -e 's/[^#]*#// '
